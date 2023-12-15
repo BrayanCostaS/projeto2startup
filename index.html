@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+
+  </head>
+
+
+  <body>
+
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="imagens/Logo Catalog.png" alt="logo catalog" width="80px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="O que você precisa?" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Procurar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <p></p>
+      
+<!-- // aqui comeca a div dos icones  -->
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <a class="bi bi-gear" href="#"> 
+            <img src="imagens/icones/gear.svg" alt="engrenagem" width="50px" href="#"> 
+              <h6>
+                <a href="#" class="text-decoration-none">Serviços para o seu automóvel</a>
+              </h6>
+
+            </a>
+          </div>
+
+          <div class="col">
+            <a class="bi bi-health" href="#">
+            <img src="imagens/icones/health.svg" alt="saude" width="50px" href="#"> 
+            <h6>
+              <a href="#" class="text-decoration-none">Saúde</a>
+            </h6>
+          </a>
+          </div>
+
+          <div class="col"> 
+            <a class="bi bi-house" href="house.html">
+            <img src="imagens/icones/house.svg.svg" alt="house" width="50px"> 
+            <h6>
+              <a href="#" class="text-decoration-none">Reformas e serviços de frete</a>
+            </h6>
+          </a>
+          </div>
+
+          <div class="col"> 
+            <a class="bi bi-house" href="#">
+            <img src="imagens/icones/consultoria.svg" alt="consultoria" width="50"px> 
+            <h6>
+              <a href="#" class="text-decoration-none">Advogados, despachantes, contador, etc</a>
+            </h6>
+          </a>
+          </div>
+
+        </div>
+      </div>
+
+  <!-- /////aqui comeca a div das imagens -->
+      <h1></h1>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/fretes.jpg" class="d-block w-100" alt="teste" height="550">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mudanças e fretes</h5>
+              <p>Garanta serviços de fretes com os melhores da região</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/eletricista2.jpg" class="d-block w-100" alt="..." height="550" >
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Eletricistas e reformas em geral</h5>
+              <p>Garanta os serviços de eletricistas e prestadores de reformas dos melhores da região</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/saude.png" class="d-block w-100" alt="..." height="550">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Saúde e alimentação</h5>
+              <p>Encontre aqui os melhores profissionais na area da saúde e cuide também de sua alimentação</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <footer>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Site em desenvolvimento pelos alunos Brayan Costa e Jardel Venturini</a>
+            </div>
+          </nav>
+          
+    
+    </footer>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
